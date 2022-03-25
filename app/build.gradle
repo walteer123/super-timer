@@ -58,14 +58,16 @@ dependencies {
 
     implementation Dependencies.Compose.composeUi
     implementation Dependencies.Compose.composeMaterial
-    implementation Dependencies.Compose.composeUiTooling
+    implementation Dependencies.Compose.composeUiToolingPreview
     implementation Dependencies.Compose.composeActivity
 
     implementation Dependencies.lifecycleRuntimeKtx
+    implementation Dependencies.koinAndroid
 
     testImplementation TestDependencies.jUnit
     androidTestImplementation TestDependencies.jUnitTestExt
     androidTestImplementation TestDependencies.espressoCore
     androidTestImplementation TestDependencies.composeUiTestJunit
+
     debugImplementation Dependencies.Compose.composeUiTooling
 }

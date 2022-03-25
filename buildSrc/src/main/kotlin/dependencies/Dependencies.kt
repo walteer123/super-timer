@@ -4,6 +4,7 @@ import dependencies.Version.app_compat_version
 import dependencies.Version.compose_activity_version
 import dependencies.Version.compose_version
 import dependencies.Version.core_ktx_version
+import dependencies.Version.koin_version
 import dependencies.Version.lifecycle_runtime_ktx_version
 import dependencies.Version.material_version
 
@@ -15,9 +16,11 @@ object Dependencies {
     object Compose {
         const val composeUi = "androidx.compose.ui:ui:$compose_version"
         const val composeMaterial = "androidx.compose.material:material:$compose_version"
-        const val composeUiTooling = "androidx.compose.ui:ui-tooling-preview:$compose_version"
+        const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview:$compose_version"
+        const val composeUiTooling = "androidx.compose.ui:ui-tooling:$compose_version"
         const val composeActivity = "androidx.activity:activity-compose:$compose_activity_version"
     }
 
     const val lifecycleRuntimeKtx =  "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime_ktx_version"
+    const val koinAndroid = "io.insert-koin:koin-android:$koin_version"
 }
