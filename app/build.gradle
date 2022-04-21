@@ -63,6 +63,7 @@ dependencies {
 
     implementation Dependencies.lifecycleRuntimeKtx
     implementation Dependencies.koinAndroid
+    implementation Dependencies.koinCompose
 
     testImplementation TestDependencies.jUnit
     androidTestImplementation TestDependencies.jUnitTestExt

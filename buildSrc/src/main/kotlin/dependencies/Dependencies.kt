@@ -23,4 +23,5 @@ object Dependencies {
 
     const val lifecycleRuntimeKtx =  "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime_ktx_version"
     const val koinAndroid = "io.insert-koin:koin-android:$koin_version"
+    const val koinCompose = "io.insert-koin:koin-androidx-compose:$koin_version"
 }

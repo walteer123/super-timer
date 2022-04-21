@@ -25,9 +25,7 @@ fun Chrono(
            .fillMaxWidth()
            .aspectRatio(1f)
    ) {
-       CircularProgressTimer(
-           angle = progressAngle
-       )
+       CircularProgressTimer(angle = progressAngle)
    }
 
 }
